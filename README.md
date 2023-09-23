@@ -63,7 +63,7 @@ For a window of size `W`, the [mean squared error][mean-squared-error] is define
 ## Usage
 
 ```javascript
-import incrmmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmse@deno/mod.js';
+import incrmmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmse@v0.1.0-deno/mod.js';
 ```
 
 #### incrmmse( window )
@@ -128,7 +128,7 @@ m = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmse@deno/mod.js';
+import incrmmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmse@v0.1.0-deno/mod.js';
 
 var accumulator;
 var v1;
