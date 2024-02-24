@@ -63,6 +63,11 @@ For a window of size `W`, the [mean squared error][mean-squared-error] is define
 ## Usage
 
 ```javascript
+import incrmmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmse@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mmse/tags). For example,
+
+```javascript
 import incrmmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmse@v0.2.1-esm/index.mjs';
 ```
 
@@ -133,7 +138,7 @@ m = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmse@v0.2.1-esm/index.mjs';
+import incrmmse from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmse@esm/index.mjs';
 
 var accumulator;
 var v1;
